@@ -2,7 +2,7 @@
 import { FormEvent, useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import doctorImage from '../public/dr.jpg'; // Ensure this path is correct or replace it
+import doctorImage from '../public/dr.jpg'; 
 
 // Define interfaces for doctor and service data
 interface Doctor {
@@ -24,21 +24,21 @@ const doctorsData: Doctor[] = [
     name: "Charlotte Smith",
     specialty: "General Physician",
     experience: "19 years experience",
-    image: "/char.png", // Replace with actual image path
+    image: "/char.png", 
     description: "Dr. Charlotte Smith has extensive experience in all aspects of adult cardiology, in particular the prevention and treatment of heart attack."
   },
   {
     name: "Adam Smith",
     specialty: "Cardiologist",
     experience: "18 years experience",
-    image: "/adam.png", // Replace with actual image path
+    image: "/adam.png", 
     description: "Dr. Adam Smith has extensive experience in all aspects of adult cardiology, in particular the prevention and treatment of heart attack."
   },
   {
     name: "Anna Smith",
     specialty: "ENT Specialist",
     experience: "15 years experience",
-    image: "/anna.png", // Replace with actual image path
+    image: "/anna.png",
     description: "Dr. Anna Smith has extensive experience in all aspects of adult cardiology, in particular the prevention and treatment of heart attack."
   }
 ];
